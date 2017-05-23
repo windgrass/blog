@@ -4,7 +4,7 @@
 
 ## Android
 
-##### AndroidStudio
+#### AndroidStudio
 [AndroidStudio安装教程](http://www.open-open.com/lib/view/open1468118887690.html)  
 [android/Re-download dependencies and sync project](android/Re-download dependencies and sync project.md)  
 [android/Re-download dependencies and sync project](android/Re-download dependencies and sync project.md)  
