@@ -42,12 +42,12 @@
 ### 商品详情页添加购物车
 商品详情页，点击加入购物车会有弹出框，选择数量，点击‘确定’添加到购物车  
 确定按钮的代码：
-```
+```html
 <a type="button" class="btn btn-block btn-primary text-center" style="background: #20A3DD;" href="javascript:addToCartNew_quick({$goods.goods_id}, 0, 0, '{$rfansid}')">确定</a>
 ```
 这里调用了addToCartNew_quick，在common.js文件中，代码中注释的为修改为虚拟车之前的代码  
 代码如下：
-```
+```php
 function addToCartNew_quick(goodsId, parentId, sid, rfansid) {
     var goods = new Object();
     var spec_arr = new Array();
@@ -83,7 +83,7 @@ function addToCartNew_quick(goodsId, parentId, sid, rfansid) {
 ```
 后台的add_virtual_cart方法是新添加的，内部逻辑是仿照原有的add_to_cart，包括数据表的结构，也是参照原有的购物车表  
 代码如下：
-```
+```php
 public function add_virtual_cart()
     {
         //对goods处理
@@ -165,7 +165,7 @@ public function add_virtual_cart()
 ```
 后台返回的是一个json数据，addToCartNew_quick中发送ajax后，调用addToCartResponse_quick来处理返回值  
 代码如下：
-```
+```php
 /* *
  * 处理添加商品到购物车的反馈信息
  */
@@ -208,7 +208,7 @@ function addToCartResponse_quick(result) {
     }
 ```
 如果没有报错，会直接跳转到‘index.php?m=default&c=flow&a=cart’，也就是购物车页面
-```
+```php
     /**
      * 购物车列表
      */
@@ -274,7 +274,7 @@ function addToCartResponse_quick(result) {
 ```
 购物车页面添加勾选框
 
-```
+```html
 <ul class="goods_list_box">
     <!-- {foreach from=$goods_list item=goods key=k} -->
     <li style="position: relative;" class="active">
@@ -330,7 +330,7 @@ function addToCartResponse_quick(result) {
 </div>
 ```
 点击切换图标的效果，是在<i class="click pull-left"></i>上绑定了点击事件
-```
+```javascript
     //选中/不选中商品
     function onchoice() {
         $('.click').on('click',function () {
@@ -346,7 +346,7 @@ function addToCartResponse_quick(result) {
     onchoice();
 ```
 对商品数量的修改也更改了，点击‘+-’会调用change_goods_number
-```
+```javascript
 //实时更新数据
     function change_goods_number(type, id) {
         var goods_number =document.getElementById('goods_number' + id).value;
@@ -388,7 +388,7 @@ function addToCartResponse_quick(result) {
     }
 ```
 在这里面，还有调用了一个函数，获取当前的商品数量
-```
+```javascript
     //获取需要提交的信息
     function back_goods_number(id) {
         var goods_number = document.getElementById('goods_number' + id).value;
@@ -401,7 +401,7 @@ function addToCartResponse_quick(result) {
     }
 ```
 更改购物车数据，访问的是后台接口{:url("flow/ajax_update_virtual_cart")}
-```
+```php
 public function ajax_update_virtual_cart() {
         //格式化返回数组
         $result = array(
@@ -533,7 +533,7 @@ public function ajax_update_virtual_cart() {
     }
 ```
 根据返回信息，修改页面上的商品数量
-```
+```php
 // 处理返回信息并显示
 function change_goods_number_response(result, id) {
     if (result.error == 0) {
@@ -553,13 +553,13 @@ function change_goods_number_response(result, id) {
 }
 ```
 点击‘立即购买’按钮，触发事件
-```
+```javascript
     $('.btn-block').on('click',function () {
         ToCart_quick();
     })
 ```
 ToCart_quick代码，在这里，会获取所有的 class=active，将goods数据添加到data中，然后发送到后台
-```
+```javascript
 /* *
  * 下单------------2017 03 14 添加-----------解决购物车商品选中才能执行下一步操作
  */
@@ -615,7 +615,7 @@ function ToCart_quick(parentId) {
 }
 ```
 向后台index.php?m=default&c=flow&a=cart_checkout发送了goods数据后，后台依据发送的数据添加到结算车（添加前先清空当前用户的结算车）
-```
+```php
 public function cart_checkout()
 {
     $all_goods = $_POST['goods'];
@@ -712,7 +712,7 @@ public function cart_checkout()
 }
 ```
 ajax添加购物车返回没有错误，跳转index.php?m=default&c=flow&a=checkout，也就是订单确认页面。订单信息是根据结算车中的信息来生成的
-```
+```php
 public function checkout() {
 //        $agent_id = $_SESSION['agent_id'];
         /* 取得购物类型 */
@@ -1020,7 +1020,7 @@ public function checkout() {
     }
 ```
 订单确认页面是一个form表单，点击立即购买跳转‘{:url('flow/done')}’，这才生成正式订单。这里会有个清空结算车的操作。在这个操作之前清空虚拟车。
-```
+```php
 public function done() {
         /* 取得购物类型 */
         $flow_type = isset($_SESSION ['flow_type']) ? intval($_SESSION ['flow_type']) : CART_GENERAL_GOODS;
@@ -1498,6 +1498,7 @@ public function done() {
     }
 ```
 到此，订单生成，该修改完成了。  
+
 ### 关键点有两个：
 1. 新建虚拟车表，记录购物车中的数据，结算车始终保持空的
 2. 根据勾选的虚拟车商品插入结算车前，清空结算车；订单生成后，根据结算车清空虚拟车
