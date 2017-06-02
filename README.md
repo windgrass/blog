@@ -15,3 +15,6 @@
 
 ## PHP
 [ectouch购物车添加勾选框](php/ectouch_cart_add_checkbox.md)
+
+## WIKI
+[程序员的十个层次](wiki/programmer_10_level.md)

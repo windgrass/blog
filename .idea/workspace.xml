@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67195332-4ef1-4b9e-ae79-44f44e99a029" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/Installation failed with message Invalid File.md" afterPath="$PROJECT_DIR$/android/Installation failed with message Invalid File.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/ectouch_cart_add_checkbox.md" afterPath="$PROJECT_DIR$/php/ectouch_cart_add_checkbox.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wiki/programmer_10_level.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,12 +19,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="156">
-                <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+              <first_editor relative-caret-position="546">
+                <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -51,94 +52,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ectouch_cart_add_checkbox.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php/ectouch_cart_add_checkbox.md">
+      <file leaf-file-name="programmer_10_level.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wiki/programmer_10_level.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="779">
-                <caret line="1507" column="33" lean-forward="true" selection-start-line="1507" selection-start-column="33" selection-end-line="1507" selection-end-column="33" />
-                <folding>
-                  <marker date="1496218992642" expanded="true" signature="1012:1032" ph="..." />
-                  <marker date="1496218992642" expanded="true" signature="10203:13321" ph="..." />
-                  <marker date="1496218992642" expanded="true" signature="10277:10296" ph="..." />
-                  <marker date="1496218992642" expanded="true" signature="10312:13291" ph="..." />
-                  <marker date="1496218992642" expanded="true" signature="10544:13281" ph="..." />
-                  <marker date="1496218992642" expanded="true" signature="10700:10829" ph="..." />
-                  <marker date="1496218992642" expanded="true" signature="10846:13266" ph="..." />
-                  <marker date="1496218992642" expanded="true" signature="10867:10884" ph="..." />
-                  <marker date="1496218992642" expanded="true" signature="10910:10925" ph="..." />
-                  <marker date="1496218992642" expanded="true" signature="11012:11024" ph="..." />
-                  <marker date="1496218992642" expanded="true" signature="11162:11175" ph="..." />
-                  <marker date="1496218992642" expanded="true" signature="11317:11330" ph="..." />
-                  <marker date="1496218992642" expanded="true" signature="11426:13248" ph="..." />
-                  <marker date="1496218992642" expanded="true" signature="11656:11702" ph="..." />
-                  <marker date="1496218992642" expanded="true" signature="11703:12046" ph="..." />
-                  <marker date="1496218992642" expanded="true" signature="11901:12019" ph="..." />
-                  <marker date="1496218992642" expanded="true" signature="12149:12184" ph="..." />
-                  <marker date="1496218992642" expanded="true" signature="12185:13226" ph="..." />
-                  <marker date="1496218992642" expanded="true" signature="12456:13071" ph="..." />
-                  <marker date="1496218992642" expanded="true" signature="13356:13509" ph="..." />
-                  <marker date="1496218992642" expanded="true" signature="13435:13447" ph="..." />
-                  <marker date="1496218992642" expanded="true" signature="13620:13902" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="13665:13895" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="13748:13804" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="13809:13862" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="14031:15432" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="14175:14228" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="14256:14303" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="14331:14378" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="14414:14463" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="14549:14647" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="14685:15013" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="14845:14904" ph="{&quot;rec_id&quot;: id...}" />
-                  <marker date="1496218992642" expanded="true" signature="14922:14993" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="15018:15425" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="15246:15316" ph="{&quot;rec_id&quot;: id...}" />
-                  <marker date="1496218992642" expanded="true" signature="15334:15405" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="15527:15859" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="15681:15770" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="15775:15853" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="15970:22814" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="16170:22677" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="16351:16491" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="17151:18266" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="17203:17528" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="17545:17554" ph="/*...*/" />
-                  <marker date="1496218992642" expanded="true" signature="17675:18252" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="17977:18234" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="18351:18636" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="18437:18622" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="18649:18677" ph="/*...*/" />
-                  <marker date="1496218992642" expanded="true" signature="18690:18753" ph="/*...*/" />
-                  <marker date="1496218992642" expanded="true" signature="19213:20564" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="19231:19257" ph="/*...*/" />
-                  <marker date="1496218992642" expanded="true" signature="19365:19734" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="19408:19683" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="19752:19764" ph="/*...*/" />
-                  <marker date="1496218992642" expanded="true" signature="19829:20046" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="20047:20066" ph="/*...*/" />
-                  <marker date="1496218992642" expanded="true" signature="20072:20550" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="20594:21128" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="20612:20644" ph="/*...*/" />
-                  <marker date="1496218992642" expanded="true" signature="20722:20974" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="21181:21193" ph="/*...*/" />
-                  <marker date="1496218992642" expanded="true" signature="21608:21618" ph="/*...*/" />
-                  <marker date="1496218992642" expanded="true" signature="21619:22110" ph="//..." />
-                  <marker date="1496218992642" expanded="true" signature="22123:22133" ph="/*...*/" />
-                  <marker date="1496218992642" expanded="true" signature="22134:22628" ph="//..." />
-                  <marker date="1496218992642" expanded="true" signature="22683:22808" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="23716:23747" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="23831:23899" ph="/*...*/" />
-                  <marker date="1496218992642" expanded="true" signature="23932:25778" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="23986:25306" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="24382:24466" ph="//..." />
-                  <marker date="1496218992642" expanded="true" signature="24730:24972" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="24865:24939" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="25369:25414" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="25431:25596" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="25462:25586" ph="{...}" />
-                  <marker date="1496218992642" expanded="true" signature="25611:25776" ph="//..." />
-                </folding>
+              <first_editor relative-caret-position="2729">
+                <caret line="326" column="21" lean-forward="false" selection-start-line="326" selection-start-column="21" selection-end-line="326" selection-end-column="21" />
+                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -167,9 +87,10 @@
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assets/css/style.scss" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/android/Installation failed with message Invalid File.md" />
         <option value="$PROJECT_DIR$/php/ectouch_cart_add_checkbox.md" />
+        <option value="$PROJECT_DIR$/wiki/programmer_10_level.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -201,6 +122,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -223,39 +145,21 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="wiki" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Windgrass_blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Windgrass_blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Windgrass_blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Windgrass_blog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Windgrass_blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Windgrass_blog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,7 +194,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -372,18 +275,19 @@
       <workItem from="1495188203036" duration="643000" />
       <workItem from="1495525921434" duration="881000" />
       <workItem from="1496217719893" duration="304000" />
-      <workItem from="1496218311829" duration="680000" />
+      <workItem from="1496218311829" duration="997000" />
+      <workItem from="1496387487644" duration="166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7591000" />
+    <option name="totallyTimeSpent" value="8074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14476496" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14636752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -417,6 +321,133 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
+          <first_editor relative-caret-position="156">
+            <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/ectouch_cart_add_checkbox.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1496218992642" expanded="true" signature="1012:1032" ph="..." />
+              <marker date="1496218992642" expanded="true" signature="10203:13321" ph="..." />
+              <marker date="1496218992642" expanded="true" signature="10277:10296" ph="..." />
+              <marker date="1496218992642" expanded="true" signature="10312:13291" ph="..." />
+              <marker date="1496218992642" expanded="true" signature="10544:13281" ph="..." />
+              <marker date="1496218992642" expanded="true" signature="10700:10829" ph="..." />
+              <marker date="1496218992642" expanded="true" signature="10846:13266" ph="..." />
+              <marker date="1496218992642" expanded="true" signature="10867:10884" ph="..." />
+              <marker date="1496218992642" expanded="true" signature="10910:10925" ph="..." />
+              <marker date="1496218992642" expanded="true" signature="11012:11024" ph="..." />
+              <marker date="1496218992642" expanded="true" signature="11162:11175" ph="..." />
+              <marker date="1496218992642" expanded="true" signature="11317:11330" ph="..." />
+              <marker date="1496218992642" expanded="true" signature="11426:13248" ph="..." />
+              <marker date="1496218992642" expanded="true" signature="11656:11702" ph="..." />
+              <marker date="1496218992642" expanded="true" signature="11703:12046" ph="..." />
+              <marker date="1496218992642" expanded="true" signature="11901:12019" ph="..." />
+              <marker date="1496218992642" expanded="true" signature="12149:12184" ph="..." />
+              <marker date="1496218992642" expanded="true" signature="12185:13226" ph="..." />
+              <marker date="1496218992642" expanded="true" signature="12456:13071" ph="..." />
+              <marker date="1496218992642" expanded="true" signature="13356:13509" ph="..." />
+              <marker date="1496218992642" expanded="true" signature="13435:13447" ph="..." />
+              <marker date="1496218992642" expanded="true" signature="13620:13902" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="13665:13895" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="13748:13804" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="13809:13862" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="14031:15432" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="14175:14228" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="14256:14303" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="14331:14378" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="14414:14463" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="14549:14647" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="14685:15013" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="14845:14904" ph="{&quot;rec_id&quot;: id...}" />
+              <marker date="1496218992642" expanded="true" signature="14922:14993" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="15018:15425" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="15246:15316" ph="{&quot;rec_id&quot;: id...}" />
+              <marker date="1496218992642" expanded="true" signature="15334:15405" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="15527:15859" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="15681:15770" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="15775:15853" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="15970:22814" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="16170:22677" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="16351:16491" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="17151:18266" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="17203:17528" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="17545:17554" ph="/*...*/" />
+              <marker date="1496218992642" expanded="true" signature="17675:18252" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="17977:18234" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="18351:18636" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="18437:18622" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="18649:18677" ph="/*...*/" />
+              <marker date="1496218992642" expanded="true" signature="18690:18753" ph="/*...*/" />
+              <marker date="1496218992642" expanded="true" signature="19213:20564" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="19231:19257" ph="/*...*/" />
+              <marker date="1496218992642" expanded="true" signature="19365:19734" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="19408:19683" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="19752:19764" ph="/*...*/" />
+              <marker date="1496218992642" expanded="true" signature="19829:20046" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="20047:20066" ph="/*...*/" />
+              <marker date="1496218992642" expanded="true" signature="20072:20550" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="20594:21128" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="20612:20644" ph="/*...*/" />
+              <marker date="1496218992642" expanded="true" signature="20722:20974" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="21181:21193" ph="/*...*/" />
+              <marker date="1496218992642" expanded="true" signature="21608:21618" ph="/*...*/" />
+              <marker date="1496218992642" expanded="true" signature="21619:22110" ph="//..." />
+              <marker date="1496218992642" expanded="true" signature="22123:22133" ph="/*...*/" />
+              <marker date="1496218992642" expanded="true" signature="22134:22628" ph="//..." />
+              <marker date="1496218992642" expanded="true" signature="22683:22808" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="23716:23747" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="23831:23899" ph="/*...*/" />
+              <marker date="1496218992642" expanded="true" signature="23932:25778" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="23986:25306" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="24382:24466" ph="//..." />
+              <marker date="1496218992642" expanded="true" signature="24730:24972" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="24865:24939" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="25369:25414" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="25431:25596" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="25462:25586" ph="{...}" />
+              <marker date="1496218992642" expanded="true" signature="25611:25776" ph="//..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
@@ -430,7 +461,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -441,7 +471,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="52">
             <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -748,20 +777,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/Re-download dependencies and sync project.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="52">
             <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -772,17 +792,21 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/assets/img/pipi.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wiki/programmer_10_level.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="156">
-            <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <first_editor relative-caret-position="2729">
+            <caret line="326" column="21" lean-forward="false" selection-start-line="326" selection-start-column="21" selection-end-line="326" selection-end-column="21" />
             <folding />
           </first_editor>
           <second_editor />
@@ -792,8 +816,8 @@
     <entry file="file://$PROJECT_DIR$/php/ectouch_cart_add_checkbox.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="779">
-            <caret line="1507" column="33" lean-forward="true" selection-start-line="1507" selection-start-column="33" selection-end-line="1507" selection-end-column="33" />
+          <first_editor relative-caret-position="444">
+            <caret line="1498" column="3" lean-forward="true" selection-start-line="1498" selection-start-column="3" selection-end-line="1498" selection-end-column="3" />
             <folding>
               <marker date="1496218992642" expanded="true" signature="1012:1032" ph="..." />
               <marker date="1496218992642" expanded="true" signature="10203:13321" ph="..." />
@@ -876,6 +900,25 @@
               <marker date="1496218992642" expanded="true" signature="25462:25586" ph="{...}" />
               <marker date="1496218992642" expanded="true" signature="25611:25776" ph="//..." />
             </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="546">
+            <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
