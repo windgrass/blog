@@ -21,6 +21,8 @@
 
 [YII2引入CSS/JS文件](php/YII2_add_cssjs.md)
 
+[草料接口生成二维码图片](php/cli_qrcode_png_make.md)
+
 ## WIKI
 [程序员的十个层次](wiki/programmer_10_level.md)
 
