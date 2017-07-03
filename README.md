@@ -11,7 +11,7 @@
 
 [android/Re-download dependencies and sync project](android/Re-download dependencies and sync project.md)  
 
-## JavaScript
+## Web
 [JS实现文件下载](javaScript/js_download_files.md)
 
 ## Mysql
