@@ -14,6 +14,8 @@
 ## Web
 [JS实现文件下载](javaScript/js_download_files.md)
 
+[HTML_base64数据处理](htmlCss/HTML_base64.md)
+
 ## Mysql
 
 ## PHP
