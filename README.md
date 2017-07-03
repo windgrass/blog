@@ -25,6 +25,8 @@
 
 [草料接口生成二维码图片](php/cli_qrcode_png_make.md)
 
+[select标签+PHP下载文件](php/select_change_download.md)
+
 ## WIKI
 [程序员的十个层次](wiki/programmer_10_level.md)
 
