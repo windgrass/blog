@@ -27,6 +27,8 @@
 
 [select标签+PHP下载文件](php/select_change_download.md)
 
+[php 获取准确的ip准确获取所在区域](http://www.cnblogs.com/piwefei/p/5356121.html)
+
 ## WIKI
 [程序员的十个层次](wiki/programmer_10_level.md)
 
